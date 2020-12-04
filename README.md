@@ -8,7 +8,7 @@ This is my blog site built
     - Nuxt content
     - Tailwind CSS
 
-## Build Setup
+## Getting Started
 
 ```bash
 # install dependencies
@@ -25,4 +25,4 @@ $ npm run start
 $ npm run generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+For detailed explanation on how things work, check out [Getting Started With Nuxt](https://medium.com/javascript-in-plain-english/getting-started-with-nuxt-4652bc83ddc6).

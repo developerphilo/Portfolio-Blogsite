@@ -8,6 +8,13 @@ alt: my first blog post
 excerpt: The best advice I wish I knew when starting.
 ---
 
+<vue-scroll-indicator
+height="7px"
+color="#11998e"
+background="none"
+
+> </vue-scroll-indicator>
+
 #### The best advice I wish I knew when starting.
 
 - #### You do not have to be a perfectionist
