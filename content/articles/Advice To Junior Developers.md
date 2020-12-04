@@ -8,18 +8,13 @@ alt: my first blog post
 excerpt: The best advice I wish I knew when starting.
 ---
 
-<vue-scroll-indicator
-height="7px"
-color="#11998e"
-background="none"
-
-> </vue-scroll-indicator>
-
 #### The best advice I wish I knew when starting.
 
 - #### You do not have to be a perfectionist
 
 Being a developer doesn’t mean you have to be a perfectionist and the know it all developer, no. you don’t have to be a perfectionist to master the craft.
+
+<scroll-indicator></scroll-indicator>
 
 - #### Be patient with your growth. Sharpening your skills takes time
 
