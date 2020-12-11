@@ -7,6 +7,7 @@ This is my blog site built
     - NuxtJs
     - Nuxt content
     - Tailwind CSS
+    - Prism Themes
 
 ## Getting Started
 

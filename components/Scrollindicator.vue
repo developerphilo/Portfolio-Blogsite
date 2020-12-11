@@ -4,6 +4,11 @@
     </vue-scroll-indicator>
   </div>
 </template>
+<script>
+export default {
+  name: "Scrollindicator",
+};
+</script>
 
 <style>
 </style>

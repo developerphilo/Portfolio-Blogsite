@@ -1,8 +1,17 @@
 <template>
   <div>
+    <Header />
     <Nuxt />
   </div>
 </template>
+<script>
+const Header = () => import("@/components/Header");
+export default {
+  components: {
+    Header,
+  },
+};
+</script>
 
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");

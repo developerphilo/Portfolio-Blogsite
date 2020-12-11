@@ -5,7 +5,9 @@ description: Make a simple lyrics finder application with Nuxtjs and tailwind cs
 
 alt: Make a simple lyrics finder application with Nuxtjs and tailwind css
 
-excerpt: Make a simple lyrics finder application with Nuxtjs and tailwind css
+excerpt: Lyrics finder application with Nuxtjs and Tailwind CSS
+
+img: pexels-stas-knop-1626481.jpg
 ---
 
 # LYRICS FINDER APPLICATION IN NUXT

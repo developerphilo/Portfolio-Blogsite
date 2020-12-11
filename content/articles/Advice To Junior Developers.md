@@ -6,6 +6,7 @@ description: learn about making
 alt: my first blog post
 
 excerpt: The best advice I wish I knew when starting.
+img: nicole-wolf-CZ9AjMGKIFI-unsplash.jpg
 ---
 
 #### The best advice I wish I knew when starting.

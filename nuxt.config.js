@@ -31,6 +31,25 @@ export default {
     '@nuxtjs/tailwindcss'
 
   ],
+    configureWebpack: {
+    optimization: {
+      runtimeChunk: 'single',
+      splitChunks: {
+        chunks: 'all',
+        maxInitialRequests: Infinity,
+        minSize: 0,
+        cacheGroups: {
+          vendor: {
+            test: /[\\/]node_modules[\\/]/,
+            name(module) {
+              const packageName = module.context.match(/[\\/]node_modules[\\/](.*?)([\\/]|$)/)[1];
+              return `npm.${packageName.replace('@', '')}`;
+            },
+          },
+        },
+      },
+    },
+  },
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
@@ -39,5 +58,6 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
+    analyze:true,
   }
 }
