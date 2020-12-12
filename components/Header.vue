@@ -9,9 +9,6 @@
           <NuxtLink to="/" class="text-black p-2 md:p-4">Home</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/about" class="text-black p-2 md:p-4">About</NuxtLink>
-        </li>
-        <li>
           <NuxtLink to="/blogs" class="text-black p-2 md:p-4">Blog</NuxtLink>
         </li>
         <li>
