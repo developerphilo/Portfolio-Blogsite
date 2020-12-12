@@ -29,15 +29,16 @@ To create a fresh Nuxtjs project, open your terminal and run the command below d
 
 **NPM**
 
-`npm create nuxt-app lyrics-finder`
+     npm create nuxt-app lyrics-finder
 
 **YARN**
 
-`yarn create-nuxt-app lyrics-finder`
+    yarn create-nuxt-app lyrics-finder`
 
 The commands will create for us a fresh Nuxtjs project
 
 Now we need to go into the pages directory and into the index.vue where we will be coding our project.
+
 Delete the contents in the template and make a single div with a h1 of LYRICS FINDER APPLICATION.
 
 For this project we will also be using TAILWIND CSS.

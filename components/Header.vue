@@ -15,6 +15,9 @@
           <NuxtLink to="/blogs" class="text-black p-2 md:p-4">Blog</NuxtLink>
         </li>
         <li>
+          <NuxtLink to="/uses" class="text-black p-2 md:p-4">Uses</NuxtLink>
+        </li>
+        <li>
           <NuxtLink to="/contact" class="text-black p-2 md:p-4"
             >Contact</NuxtLink
           >

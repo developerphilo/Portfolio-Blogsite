@@ -5,12 +5,11 @@
 <div class="py-12 bg-white">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="lg:text-center">
-      <h2 class="text-base text-indigo-600 font-semibold tracking-wide uppercase">Skill Section</h2>
       <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-        A better way to send money
+       About Me
       </p>
       <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-        Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in accusamus quisquam.
+        I am a Front-End developer, writer and YouTuber based in Kenya, right in the heart of Africa. I can do remote work for any place in the world.
       </p>
     </div>
 
@@ -27,10 +26,10 @@
           </div>
           <div class="ml-4">
             <dt class="text-lg leading-6 font-medium text-gray-900">
-              Competitive exchange rates
+              Front End development
             </dt>
             <dd class="mt-2 text-base text-gray-500">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
+              For frontend work, I am personally a huge fan of Vue.js and it's ecosystem (e.g. Nuxt.js).
             </dd>
           </div>
         </div>
@@ -46,10 +45,10 @@
           </div>
           <div class="ml-4">
             <dt class="text-lg leading-6 font-medium text-gray-900">
-              No hidden fees
+              Work
             </dt>
             <dd class="mt-2 text-base text-gray-500">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
+              If you have any web development needs, I am happy to look at your project.
             </dd>
           </div>
         </div>
@@ -65,10 +64,10 @@
           </div>
           <div class="ml-4">
             <dt class="text-lg leading-6 font-medium text-gray-900">
-              Transfers are instant
+              Learning
             </dt>
             <dd class="mt-2 text-base text-gray-500">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
+              Currently I am Learning Nodejs specifically Express framework
             </dd>
           </div>
         </div>
@@ -84,10 +83,10 @@
           </div>
           <div class="ml-4">
             <dt class="text-lg leading-6 font-medium text-gray-900">
-              Mobile notifications
+              Wordpress
             </dt>
             <dd class="mt-2 text-base text-gray-500">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
+              I am also a huge fan of Wordpress and have developed websites around this technology
             </dd>
           </div>
         </div>
