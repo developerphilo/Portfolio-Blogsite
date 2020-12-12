@@ -2,7 +2,7 @@
   <article>
     <Btemplate />
     <div>
-      <div class="container mx-auto">
+      <div class="flex mic flex-wrap">
         <Singlearticle
           v-for="blog in blogs"
           :key="blog.slug"
@@ -35,4 +35,7 @@ export default {
 };
 </script>
 <style scoped>
+.mic {
+  margin: 0 auto;
+}
 </style>

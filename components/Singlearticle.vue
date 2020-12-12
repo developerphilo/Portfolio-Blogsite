@@ -1,32 +1,44 @@
 <template>
   <article class="pt-8">
-    <!-- Column -->
-    <div class="my-1 px-1 lg:mx-auto lg:px-4 lg:w-1/3">
-      <!-- Article -->
-      <article class="overflow-hidden rounded-lg shadow-lg">
-        <a :to="path">
-          <img
-            alt="Placeholder"
-            class="block h-auto w-full"
-            :src="require(`~/assets/${img}`)"
-          />
-        </a>
+    <div class="wrapper antialiased text-gray-900 ml-6">
+      <div>
+        <img
+          :src="require(`~/assets/${img}`)"
+          alt=" random imgee"
+          class="object-cover object-center rounded-lg shadow-md"
+        />
 
-        <header
-          class="flex items-center justify-between leading-tight p-2 md:p-4"
-        >
-          <h1 class="text-lg">
-            <a class="no-underline hover:text-teal-500 text-black" :href="path">
+        <div class="relative px-4 -mt-16">
+          <div class="bg-white p-6 rounded-lg shadow-lg">
+            <div class="flex items-baseline">
+              <span
+                class="bg-teal-200 text-teal-800 text-xs px-2 inline-block rounded-full uppercase font-semibold tracking-wide"
+              >
+                New
+              </span>
+              <div
+                class="ml-2 text-gray-600 uppercase text-xs font-semibold tracking-wider"
+              >
+                2 baths &bull; 3 rooms
+              </div>
+            </div>
+
+            <h4 class="mt-1 font-semibold uppercase leading-tight truncate">
               {{ title }}
-            </a>
-          </h1>
-          <p class="text-grey-darker text-sm">
-            {{ published }}
-          </p>
-        </header>
-      </article>
-      <!-- END Article -->
-      <!-- END of column -->
+            </h4>
+
+            <div class="mt-1">
+              <span class="text-gray-600 text-sm">{{ excerpt }}</span>
+            </div>
+            <div class="mt-4">
+              <span class="text-teal-600 text-md font-semibold"
+                >{{ published }}
+              </span>
+              <span class="text-sm text-gray-600">(based on 234 ratings)</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </article>
 </template>
@@ -38,4 +50,12 @@ export default {
 };
 </script>
 <style scoped>
+.wrapper {
+  display: flex;
+  place-items: center;
+}
+img {
+  width: 450px;
+  height: 350px;
+}
 </style>

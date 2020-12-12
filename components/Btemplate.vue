@@ -1,7 +1,7 @@
 <<template>
   <!-- component -->
   <div class="w-full text-center bg-cover" style="" >
-      <h1 class="font-medium text-5xl pt-32 text-white">Blog Section</h1>
+      <h1 class="font-medium text-5xl pt-32 text-white">My Blog</h1>
 
   </div>
 </template>
