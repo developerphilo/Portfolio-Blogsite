@@ -8,7 +8,7 @@ alt: my first blog post
 excerpt: The best advice I wish I knew when starting.
 img: nicole-wolf-CZ9AjMGKIFI-unsplash.jpg
 
-tag: tip
+tag: tip productivity
 ---
 
 #### The best advice I wish I knew when starting.

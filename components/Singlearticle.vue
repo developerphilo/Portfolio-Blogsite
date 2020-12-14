@@ -14,7 +14,7 @@
               <span
                 class="bg-teal-200 text-teal-800 text-xs px-2 inline-block rounded-full uppercase font-semibold tracking-wide"
               >
-                New
+                {{ tag }}
               </span>
               <div
                 class="ml-2 text-gray-600 uppercase text-xs font-semibold tracking-wider"
@@ -34,7 +34,7 @@
               <span class="text-teal-600 text-md font-semibold"
                 >{{ published }}
               </span>
-              <span class="text-sm text-gray-600">(based on 234 ratings)</span>
+              <span class="text-sm text-gray-600 pl-2">John Philip</span>
             </div>
           </div>
         </div>
@@ -46,7 +46,7 @@
 <script>
 export default {
   name: "Singlearticle",
-  props: ["path", "id", "title", "excerpt", "published", "img"],
+  props: ["path", "id", "title", "excerpt", "published", "img", "tag"],
 };
 </script>
 <style scoped>

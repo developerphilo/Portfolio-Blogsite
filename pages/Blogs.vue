@@ -12,6 +12,7 @@
           :excerpt="blog.excerpt"
           :published="blog.createdAt"
           :img="blog.img"
+          :tag="blog.tag"
         />
       </div>
     </div>
@@ -19,8 +20,10 @@
 </template>
 
 <script>
-const Btemplate = () => import("@/components/Btemplate");
-const Singlearticle = () => import("@/components/Singlearticle");
+const Btemplate = () =>
+  import(/*webpackChunkName: "Btemplate"*/ "@/components/Btemplate");
+const Singlearticle = () =>
+  import(/*webpackChunkName: "Singlearticle"*/ "@/components/Singlearticle");
 export default {
   components: {
     Btemplate,
