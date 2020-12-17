@@ -9,9 +9,11 @@ excerpt: Lyrics finder application with Nuxtjs and Tailwind
 
 img: pexels-stas-knop-1626481.jpg
 tag: NuxtJs vue
+
+attribution: photo by John Philip from Pexelry
 ---
 
-# LYRICS FINDER APPLICATION IN NUXT
+# **Lyrics Finder Application in Nuxt**
 
 Make a simple lyrics finder application with Nuxtjs and tailwind css.
 
@@ -28,13 +30,13 @@ Pre-requisites
 
 To create a fresh Nuxtjs project, open your terminal and run the command below depending on your preferred package manager. You should also install tailwind css for styling purposes.
 
-**NPM**
+**Npm**
 
      npm create nuxt-app lyrics-finder
 
-**YARN**
+**Yarn**
 
-    yarn create-nuxt-app lyrics-finder`
+    yarn create-nuxt-app lyrics-finder
 
 The commands will create for us a fresh Nuxtjs project
 
@@ -46,7 +48,13 @@ For this project we will also be using TAILWIND CSS.
 
 Serve our application
 
-To start our nuxt project we will run the command `npm run dev` this will serve our application and make it available on _localhost:3000._
+To start our nuxt project we will run the command
+
+```
+npm run dev
+```
+
+this will serve our application and make it available on _localhost:3000._
 
 It will also ensure that anytime we make our changes and save, our changes will be reflected in the browser. Perfect isn’t it.
 
@@ -78,23 +86,26 @@ Search
 </form>
 ```
 
-Getting user input
+**Getting user input**
+
 For us to get user data we will use the v-model directive to bind user entry to the search data. So anytime the user makes a search it will automatically sync with the data object.
 
-```<input
-          v-model="title"
-          type="text"
-          placeholder="Enter song title"
-          class="pt-1"
-        />
+```js{1,3-5}[index.vue]
+<input
+  v-model="title"
+  type="text"
+  placeholder="Enter song title"
+  class="pt-1"
+/>
 ```
 
 When the user enters data into the title input section it will automatically bind it to the title instance in the data function.
 See example below.
 
-```data() {
+```js{1,3-5}[index.vue]
+data() {
+  // bind data
 return {
-// bind data
 artist: "chris brown",
 title: "heat",
 lyrics: "",
@@ -102,20 +113,16 @@ lyrics: "",
 }
 ```
 
-Getting the lyrics
+**Fetching the lyrics**
 
 For us to get the lyrics we will be using a free api that doesn’t require authentication. We will be making an api call to the endpoint to get back the lyrics.
 
-The endpoint we will be exploring is the
+The endpoint we will be exploring is https://api.lyrics.ovh/v1/
 
 we will use the async await to the created to make our calls asynchronous. Created lifecycle hook will be called synchronously after the instance is created.
 
-```async created() {
-//Called synchronously after the instance is created
+```js{1,3-5}[index.vue]
 
-}
-
-On the created lifecycle we will make a default search as shown below. We will be suing fetch method to make https calls.
 async created() {
 //Called synchronously after the instance is created
 try {
@@ -133,17 +140,21 @@ console.log(error);
 }
 ```
 
-Making A Search
+**Making A Search**
 
 To make a search when the user clicks on submit we have to bind the submit to a method to make a search.
 On the form we have chained the prevent on the submit. this will prevent the form from bubbling around and refreshing the page every time the submit button is clicked.
 
-`<form @submit.prevent="searchLyrics" class="text-center pt-5">`
+```js{1,3-5}[index.vue]
+
+<form @submit.prevent="searchLyrics" class="text-center pt-5">
+```
 
 We have a search method called searchLyrics and we bind it to the methods to make a search to the api.
 We make a search as follows.
 
-```methods: {
+```js{1,3-5}[index.vue]
+methods: {
 async searchLyrics() {
 // fetch lyrics from api here
 try {
@@ -151,7 +162,7 @@ const response = await fetch(
 `https://api.lyrics.ovh/v1/${this.artist}/${this.title}`
 );
 const data = await response.json();
-// reset the data obkect to prevent from showing in the form input
+// reset the data object to prevent from showing in the form input
 this.artist = "";
 this.title = "";
 console.log(data);
@@ -162,10 +173,18 @@ console.log(error);
 }
 ```
 
-Conclusion
+**Conclusion**
+
+
 
 Thank you for reading through this article. If you found it helpful, please share.
 
+
+
+
 Just to recap that we have seen how to
+
+
+
 
 1. Make

@@ -1,8 +1,7 @@
-<<template>
+<template>
   <!-- component -->
   <div>
-      <h1>USES</h1>
-
+    <h1>USES</h1>
   </div>
 </template>
  <script>

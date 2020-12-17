@@ -4,14 +4,14 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'John Philip',
+    title: 'John Philip | Front-End Developer',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'John Philip | Front-End Developer', name: 'John Philip | Front-End Developer', content: 'I am a Front-End developer, writer and YouTuber based in Kenya, right in the heart of Africa. I can do remote work for any place in the world' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.jpg' }
     ]
   },
   // Global CSS (https://go.nuxtjs.dev/config-css)
@@ -28,11 +28,23 @@ export default {
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
+    // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     '@nuxtjs/tailwindcss'
 
   ],
-   
+  // prism-themes/themes/prism-material-oceanic.css
+  content: {
+  markdown: {
+    prism: {
+      theme: 'prism-themes/themes/prism-material-oceanic.css'
+    }
+  }
+},
+transition:{
+  name:'page',
+  mode:'out-in'
 
+},
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
     '@nuxt/content',
@@ -58,7 +70,8 @@ export default {
         },
       },
     },
-  },
+  }
+  ,
     analyze:true,
   }
 }

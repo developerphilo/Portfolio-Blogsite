@@ -1,12 +1,12 @@
 <template>
   <div>
-    <vue-scroll-indicator height="7px" color="#11998e" background="none">
+    <vue-scroll-indicator height="4px" color="#11998e" background="none">
     </vue-scroll-indicator>
   </div>
 </template>
 <script>
 export default {
-  name: "Scrollindicator",
+  name: "Scroll",
 };
 </script>
 

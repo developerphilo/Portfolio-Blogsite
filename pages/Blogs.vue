@@ -2,7 +2,7 @@
   <article>
     <Btemplate />
     <div>
-      <div class="flex mic flex-wrap">
+      <div class="flex flex-wrap">
         <Singlearticle
           v-for="blog in blogs"
           :key="blog.slug"
@@ -10,7 +10,7 @@
           :path="blog.path"
           :title="blog.title"
           :excerpt="blog.excerpt"
-          :published="blog.createdAt"
+          :published="formatDate(blog.createdAt)"
           :img="blog.img"
           :tag="blog.tag"
         />
@@ -31,14 +31,17 @@ export default {
   },
   async asyncData({ $content, params }) {
     const blogs = await $content("articles", params.slug)
-      .sortBy("title")
+      .sortBy("createdAt", "asc")
       .fetch();
     return { blogs };
+  },
+  methods: {
+    formatDate(date) {
+      const options = { year: "numeric", month: "long", day: "numeric" };
+      return new Date(date).toLocaleDateString("en", options);
+    },
   },
 };
 </script>
 <style scoped>
-.mic {
-  margin: 0 auto;
-}
 </style>

@@ -16,7 +16,8 @@
 
 </template>
  <script>
-const Skillsect = () => import("@/components/Skillsect");
+const Skillsect = () =>
+  import(/*webpackChunkName: "Skillsect"*/ "@/components/Skillsect");
 export default {
   components: {
     Skillsect,
@@ -25,13 +26,13 @@ export default {
 </script>
  <<style scoped>
  .headerr{
-height:600px;
-background-image: url('../assets/nicole-wolf-CZ9AjMGKIFI-unsplash.jpg');
-background-size:cover;
-background-repeat:no-repeat;
-width:100%;
-
-     
+    height:600px;
+    background-image: url('../assets/nicole-wolf-CZ9AjMGKIFI-unsplash.jpg');
+    background-size:cover;
+    background-position:center;
+    object-fit:cover;
+    background-repeat:no-repeat;
+    width:100%;  
  }
 
  

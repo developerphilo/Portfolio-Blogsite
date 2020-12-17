@@ -98,7 +98,9 @@
  
 </template>
  <script>
-export default {};
+export default {
+  name: "Skillsect",
+};
 </script>
 <style scoped>
 </style>

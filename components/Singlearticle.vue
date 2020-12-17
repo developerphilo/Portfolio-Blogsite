@@ -4,7 +4,7 @@
       <div>
         <img
           :src="require(`~/assets/${img}`)"
-          alt=" random imgee"
+          :alt="title"
           class="object-cover object-center rounded-lg shadow-md"
         />
 
@@ -12,20 +12,16 @@
           <div class="bg-white p-6 rounded-lg shadow-lg">
             <div class="flex items-baseline">
               <span
-                class="bg-teal-200 text-teal-800 text-xs px-2 inline-block rounded-full uppercase font-semibold tracking-wide"
+                class="bg-teal-200 text-teal-800 text-xs px-2 inline-block rounded-full uppercase font-semibold tracking-wide pt-1 pb-1"
               >
                 {{ tag }}
               </span>
-              <div
-                class="ml-2 text-gray-600 uppercase text-xs font-semibold tracking-wider"
-              >
-                2 baths &bull; 3 rooms
-              </div>
             </div>
-
-            <h4 class="mt-1 font-semibold uppercase leading-tight truncate">
-              {{ title }}
-            </h4>
+            <nuxt-link :to="path">
+              <h4 class="mt-1 font-semibold uppercase leading-tight truncate">
+                {{ title }}
+              </h4>
+            </nuxt-link>
 
             <div class="mt-1">
               <span class="text-gray-600 text-sm">{{ excerpt }}</span>
