@@ -5,7 +5,7 @@ description: Make a simple lyrics finder application with Nuxtjs and tailwind cs
 
 alt: Make a simple lyrics finder application with Nuxtjs and tailwind css
 
-excerpt: Lyrics finder application with Nuxtjs and Tailwind
+excerpt: Lyrics finder application with Nuxtjs
 
 img: pexels-stas-knop-1626481.jpg
 tag: NuxtJs vue
@@ -175,16 +175,8 @@ console.log(error);
 
 **Conclusion**
 
-
-
 Thank you for reading through this article. If you found it helpful, please share.
 
-
-
-
 Just to recap that we have seen how to
-
-
-
 
 1. Make

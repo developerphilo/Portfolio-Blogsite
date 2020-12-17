@@ -1,6 +1,6 @@
 <template>
   <article class="pt-8">
-    <div class="wrapper antialiased text-gray-900 ml-6">
+    <div class="wrapper antialiased text-gray-900 ml-6 grow">
       <div>
         <img
           :src="require(`~/assets/${img}`)"
@@ -51,7 +51,13 @@ export default {
   place-items: center;
 }
 img {
-  width: 450px;
-  height: 350px;
+  width: 400px;
+  height: 300px;
+}
+.grow:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition-duration: 0.3s;
 }
 </style>
