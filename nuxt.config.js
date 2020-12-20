@@ -5,15 +5,63 @@ export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     title: 'John Philip | Front-End Web Developer | JavaScript, Vue.js, Nuxt.js, Node.js',
-    meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'John Philip | Front-End Developer', name: 'John Philip | Front-End Developer', content: 'I am a Front-End developer, writer and YouTuber based in Kenya, right in the heart of Africa. I can do remote work for any place in the world' }
-    ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/john-philip.png' }
-    ]
+   meta: [
+  { property: "og:site_name", content: "John Philip | Front-End Web Developer | JavaScript, Vue.js, Nuxt.js, Node.js" },
+  { hid: "og:type", property: "og:type", content: "website" },
+  {
+    hid: "og:url",
+    property: "og:url",
+    content: "https://portfolio-blogsite.netlify.app",
   },
+  {
+    hid: "og:title",
+    property: "og:title",
+    content: "John Philip | Front-End Web Developer | JavaScript, Vue.js, Nuxt.js, Node.js",
+  },
+  {
+    hid: "og:description",
+    property: "og:description",
+    content: "John Philip | Front-End Web Developer | JavaScript, Vue.js, Nuxt.js, Node.js",
+  },
+  {
+    hid: "og:image",
+    property: "og:image",
+    content: "https://images.pexels.com/photos/5273349/pexels-photo-5273349.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  },
+  { property: "og:image:width", content: "740" },
+  { property: "og:image:height", content: "300" },
+    { name: "twitter:site", content: "@bobross" },
+  { name: "twitter:card", content: "summary_large_image" },
+  {
+    hid: "twitter:url",
+    name: "twitter:url",
+    content: "https://portfolio-blogsite.netlify.app",
+  },
+  {
+    hid: "twitter:title",
+    name: "twitter:title",
+    content: "John Philip | Front-End Web Developer | JavaScript, Vue.js, Nuxt.js, Node.js",
+  },
+  {
+    hid: "twitter:description",
+    name: "twitter:description",
+    content: "John Philip | Front-End Web Developer | JavaScript, Vue.js, Nuxt.js, Node.js"
+  },
+  {
+    hid: "twitter:image",
+    name: "twitter:image",
+    content: "https://images.pexels.com/photos/5273349/pexels-photo-5273349.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  },
+
+],
+   link: [
+  {
+    hid: "canonical",
+    rel: "canonical",
+    href: "https://portfolio-blogsite.netlify.app",
+  },
+]
+},
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
   ],
