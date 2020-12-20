@@ -54,12 +54,9 @@ export default {
   },
 
 ],
-   link: [
-  {
-    hid: "canonical",
-    rel: "canonical",
-    href: "https://portfolio-blogsite.netlify.app",
-  },
+  link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/john-philip.png' }
+    ]
 ]
 },
   // Global CSS (https://go.nuxtjs.dev/config-css)
