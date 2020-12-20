@@ -1,6 +1,10 @@
 <template>
   <div>
-    <vue-scroll-indicator height="4px" color="#11998e" background="none">
+    <vue-scroll-indicator
+      height="3px"
+      color="rgb(148, 19, 148)"
+      background="none"
+    >
     </vue-scroll-indicator>
   </div>
 </template>

@@ -5,16 +5,21 @@ This is my portfolio and blog website
 #### Built with
 
     - NuxtJs
+
     - Nuxt content
+
     - Markdown
+
     - Tailwind CSS
+
     - Prism Themes
+
     - Vue Scroll Indicator
 
-
-    Image Resources
+#### Image Resources
 
     - Pexels
+
     - Unsplash
 
 ## Getting Started

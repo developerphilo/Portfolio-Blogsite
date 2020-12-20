@@ -1,6 +1,6 @@
 <template>
-  <article class="pt-8">
-    <div class="wrapper antialiased text-gray-900 ml-6 grow">
+  <article class="pt-8 mx-auto">
+    <div class="wrapper antialiased text-gray-900 ml-4 grow">
       <div>
         <img
           :src="require(`~/assets/${img}`)"
@@ -18,7 +18,7 @@
               </span>
             </div>
             <nuxt-link :to="path">
-              <h4 class="mt-1 font-semibold uppercase leading-tight truncate">
+              <h4 class="mt-1 font-semibold leading-tight truncate">
                 {{ title }}
               </h4>
             </nuxt-link>

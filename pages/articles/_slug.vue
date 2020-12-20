@@ -78,7 +78,7 @@ img {
   line-height: 2rem;
 }
 h5 {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 strong {
   font-size: 26px;

@@ -4,14 +4,14 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'John Philip | Front-End Developer',
+    title: 'John Philip | Front-End Web Developer | JavaScript, Vue.js, Nuxt.js, Node.js',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'John Philip | Front-End Developer', name: 'John Philip | Front-End Developer', content: 'I am a Front-End developer, writer and YouTuber based in Kenya, right in the heart of Africa. I can do remote work for any place in the world' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.jpg' }
+      { rel: 'icon', type: 'image/x-icon', href: '/john-philip.png' }
     ]
   },
   // Global CSS (https://go.nuxtjs.dev/config-css)
@@ -40,7 +40,7 @@ export default {
     }
   }
 },
-transition:{
+pageTransition:{
   name:'page',
   mode:'out-in'
 
@@ -48,6 +48,7 @@ transition:{
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
     '@nuxt/content',
+    
   ],
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
