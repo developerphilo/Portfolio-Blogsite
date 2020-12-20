@@ -23,7 +23,7 @@ export default {
 </script>
  <<style scoped>
  .headerr{
-    height:500px;
+    height:600px;
     background-image: url('../assets/background-image-undrew.svg');
     background-repeat: no-repeat;
     background-position: center;
