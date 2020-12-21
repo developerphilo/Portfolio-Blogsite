@@ -37,7 +37,7 @@ export default {
 </script>
 <style scoped>
 .footer {
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 svg {
   display: inline;
