@@ -72,7 +72,7 @@
   </div>
 </template>
 <script>
-const Contactform = () => import("@/components/contact");
+const Contactform = () => import("@/components/Contact");
 export default {
   components: {
     Contactform,
