@@ -73,7 +73,7 @@ img {
   margin: 0 auto;
 }
 .nuxt-content p {
-  font-size: 18px;
+  font-size: 1.25em;
   margin-bottom: 20px;
   line-height: 2rem;
 }
@@ -88,6 +88,10 @@ strong {
   padding: 8px 0;
   font-weight: 500;
   margin-left: 30px;
+}
+.filename {
+  font-weight: bold;
+  font-size: 1.1rem;
 }
 
 @media (max-width: 800px) {
