@@ -9,7 +9,7 @@ excerpt: learning resources for junior developers.
 
 img: pexels-miguel-á-padriñán-194094.jpg
 
-tag: productivity
+tag: tip learning
 
 attribution: photo by John Philip from Pexelry
 ---

@@ -4,9 +4,9 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'John Philip | Front-End Web Developer | JavaScript, Vue.js, Nuxt.js, Node.js',
+    title: 'John Philip | Front-End Developer | JavaScript, Vue.js, Nuxt.js, Node.js',
    meta: [
-  { property: "og:site_name", content: "John Philip | Front-End Web Developer | JavaScript, Vue.js, Nuxt.js, Node.js" },
+  { property: "og:site_name", content: "John Philip | Front-End Developer | JavaScript, Vue.js, Nuxt.js, Node.js" },
   { hid: "og:type", property: "og:type", content: "website" },
   {
     hid: "og:url",
@@ -16,12 +16,12 @@ export default {
   {
     hid: "og:title",
     property: "og:title",
-    content: "John Philip | Front-End Web Developer | JavaScript, Vue.js, Nuxt.js, Node.js",
+    content: "John Philip | Front-End Developer | JavaScript, Vue.js, Nuxt.js, Node.js",
   },
   {
     hid: "og:description",
     property: "og:description",
-    content: "John Philip | Front-End Web Developer | JavaScript, Vue.js, Nuxt.js, Node.js",
+    content: "John Philip | Front-End Developer | JavaScript, Vue.js, Nuxt.js, Node.js",
   },
   {
     hid: "og:image",
@@ -40,12 +40,12 @@ export default {
   {
     hid: "twitter:title",
     name: "twitter:title",
-    content: "John Philip | Front-End Web Developer | JavaScript, Vue.js, Nuxt.js, Node.js",
+    content: "John Philip | Front-End Developer | JavaScript, Vue.js, Nuxt.js, Node.js",
   },
   {
     hid: "twitter:description",
     name: "twitter:description",
-    content: "John Philip | Front-End Web Developer | JavaScript, Vue.js, Nuxt.js, Node.js"
+    content: "John Philip | Front-End Developer | JavaScript, Vue.js, Nuxt.js, Node.js"
   },
   {
     hid: "twitter:image",
