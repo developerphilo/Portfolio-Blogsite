@@ -1,5 +1,5 @@
 <template>
-  <article class="pt-8 mx-auto">
+  <article class="pt-8 mx-auto pb-2">
     <div class="wrapper antialiased text-gray-900 ml-4 grow">
       <div>
         <img

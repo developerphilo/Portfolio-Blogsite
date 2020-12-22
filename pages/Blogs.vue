@@ -2,7 +2,7 @@
   <article>
     <Btemplate />
     <div>
-      <div class="flex flex-wrap">
+      <div class="blogs flex flex-wrap pt-4 pb-4">
         <Singlearticle
           v-for="blog in blogs"
           :key="blog.slug"
@@ -44,4 +44,9 @@ export default {
 };
 </script>
 <style scoped>
+.blogs {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
 </style>
