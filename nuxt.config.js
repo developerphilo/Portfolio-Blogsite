@@ -5,6 +5,9 @@ export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     title: 'John Philip | Front-End Developer | JavaScript, Vue.js, Nuxt.js, Node.js',
+    htmlAttrs: {
+      lang: "en",  // it sets the language English
+    },
    meta: [
   { property: "og:site_name", content: "John Philip | Front-End Developer | JavaScript, Vue.js, Nuxt.js, Node.js" },
   { hid: "og:type", property: "og:type", content: "website" },
@@ -30,7 +33,7 @@ export default {
   },
   { property: "og:image:width", content: "740" },
   { property: "og:image:height", content: "300" },
-    { name: "twitter:site", content: "@bobross" },
+    { name: "twitter:site", content: "@amjohnphilip" },
   { name: "twitter:card", content: "summary_large_image" },
   {
     hid: "twitter:url",
