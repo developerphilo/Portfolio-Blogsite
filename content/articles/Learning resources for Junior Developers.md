@@ -1,11 +1,11 @@
 ---
-title: Learning Resources for Junior Developers
+title: Resources for Junior Developers
 
 description: resources for juniors
 
 alt: learning resources for juniors
 
-excerpt: This article outlines learning resources for junior developers.
+excerpt: learning resources for junior developers.
 
 img: pexels-miguel-á-padriñán-194094.jpg
 
