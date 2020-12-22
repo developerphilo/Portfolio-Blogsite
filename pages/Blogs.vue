@@ -46,7 +46,7 @@ export default {
 <style scoped>
 .blogs {
   width: 100%;
-  max-width: 1000px;
+  max-width: 900px;
   margin: 0 auto;
 }
 </style>
