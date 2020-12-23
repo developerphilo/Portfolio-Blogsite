@@ -9,6 +9,11 @@ export default {
       lang: "en",  // it sets the language English
     },
    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+
+      // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+      { hid: 'description', name: 'description', content: 'John Philip | Front-End Developer | JavaScript, Vue.js, Nuxt.js, Node.js' },
   { property: "og:site_name", content: "John Philip | Front-End Developer | JavaScript, Vue.js, Nuxt.js, Node.js" },
   { hid: "og:type", property: "og:type", content: "website" },
   {
