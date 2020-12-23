@@ -63,7 +63,7 @@ export default {
 
 ],
   link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/john-philip.png' }
+      { rel: 'icon', type: 'image/x-icon', href: '/john-philip.webp' }
     ]
 },
   // Global CSS (https://go.nuxtjs.dev/config-css)

@@ -6,7 +6,7 @@
       <div>
         <a href="/" class="text-black text-normal pl-10">
           <img
-            :src="require(`~/assets/john-philip.png`)"
+            :src="require(`~/assets/john-philip.webp`)"
             class="img-rounded"
             alt="profile picture of john philip"
             srcset=""
