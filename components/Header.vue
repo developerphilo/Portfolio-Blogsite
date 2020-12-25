@@ -8,6 +8,8 @@
           <img
             :src="require(`~/assets/john-philip.webp`)"
             class="img-rounded"
+            width="36"
+            height="36"
             alt="profile picture of john philip"
             srcset=""
           />
