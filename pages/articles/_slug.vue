@@ -5,7 +5,13 @@
       Post Published on: {{ formatDate(blog.createdAt) }}
     </p>
     <div class="img-sect">
-      <img :src="require(`~/assets/${blog.img}`)" alt="blog image" srcset="" />
+      <img
+        :src="require(`~/assets/${blog.img}`)"
+        width="800"
+        height="500"
+        alt="blog image"
+        srcset=""
+      />
       <p class="text-center pb-6 pt-2">
         {{ blog.attribution }}
       </p>

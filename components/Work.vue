@@ -1,7 +1,12 @@
 <template>
   <div class="project-wrapper">
     <div class="pwrap">
-      <img :src="require(`~/assets/${img}`)" :alt="title" />
+      <img
+        :src="require(`~/assets/${img}`)"
+        width="432"
+        height="257"
+        :alt="title"
+      />
       <div class="p-title">
         <div>
           <h1>
