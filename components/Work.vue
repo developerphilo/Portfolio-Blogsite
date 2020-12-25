@@ -2,10 +2,15 @@
   <div class="project-wrapper">
     <div class="pwrap">
       <img :src="require(`~/assets/${img}`)" :alt="title" />
-      <h1>{{ title }}</h1>
-      <a :href="link" target="_blank" rel="noopener noreferrer"
-        >Visit Link -></a
-      >
+      <div class="p-title">
+        <div>
+          <h1>
+            {{ title }}
+            <span><img src="~assets/right-arrow.svg" alt="" /></span>
+          </h1>
+        </div>
+        <a :href="link" target="_blank" rel="noopener noreferrer">visit link</a>
+      </div>
     </div>
   </div>
 </template>
@@ -28,6 +33,9 @@ export default {
   width: 432px;
   height: 350px;
 }
+.p-title {
+  padding-left: 1rem;
+}
 h1 {
   font-size: 20px;
   margin-bottom: 5px;
@@ -44,24 +52,31 @@ img {
   height: auto;
 }
 a {
-  transition-property: all;
-  transition-duration: 0.2s;
-  transition-timing-function: ease;
-  transition-delay: 0s;
+  font-size: 20px;
+  margin-bottom: 5px;
   color: #1a1d20;
   line-height: 1.6em;
   font-weight: 500;
+  word-wrap: break-word;
+  margin-top: 10px;
 }
 a:hover {
   color: #0f4bf1 !important;
   text-decoration: none;
-  transition: 0.2s;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
+  font-size: 20px;
+  margin-bottom: 5px;
+  line-height: 1.6em;
+  font-weight: 500;
+  word-wrap: break-word;
+  margin-top: 10px;
+}
+span img {
+  width: 20px;
+  display: inline;
+}
+span img:hover {
+  fill: #0f4bf1 !important ;
+  width: 20px;
+  display: inline;
 }
 </style>
