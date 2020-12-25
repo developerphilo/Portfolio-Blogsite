@@ -21,13 +21,13 @@
         v-if="prev"
         class="font-bold hover:underline text-teal-500 inline items-center mr-6"
       >
-        <nuxt-link :to="prev.slug">Go Back</nuxt-link>
+        <nuxt-link :to="prev.slug">Previous</nuxt-link>
       </h5>
       <h5
         v-if="next"
         class="font-bold hover:underline text-teal-500 inline items-center"
       >
-        <nuxt-link :to="next.slug"> Next Blog</nuxt-link>
+        <nuxt-link :to="next.slug">Next</nuxt-link>
       </h5>
     </div>
   </article>
@@ -93,7 +93,6 @@ strong {
   font-weight: bold;
   font-size: 1.1rem;
 }
-
 @media (max-width: 800px) {
   img {
     width: 600px;

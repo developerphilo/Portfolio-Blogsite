@@ -23,6 +23,9 @@
           <nuxt-link to="/blogs" class="text-black p-2 md:p-4">Blog</nuxt-link>
         </li>
         <li>
+          <nuxt-link to="/work" class="text-black p-2 md:p-4">Work</nuxt-link>
+        </li>
+        <li>
           <nuxt-link to="/contact" class="text-black p-2 md:p-4"
             >Contact</nuxt-link
           >
