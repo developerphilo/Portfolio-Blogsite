@@ -43,6 +43,7 @@ export default {
 <style scoped>
 .footer {
   font-size: 1.1rem;
+  box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.1);
 }
 svg {
   display: inline;

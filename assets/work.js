@@ -33,6 +33,13 @@ module.exports = {
             link: 'http://unplugged.netlify.app',
             img: "iphone-black.jpg",
 
+        },
+        {
+            id: 5,
+            title: "Unplugged",
+            link: 'http://unplugged.netlify.app',
+            img: "movies-ui.jpg",
+
         }
     ]
 
