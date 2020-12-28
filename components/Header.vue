@@ -42,18 +42,12 @@ export default {
 };
 </script>
  <style scoped>
-.header {
-  background-image: url("../assets/nicole-wolf-CZ9AjMGKIFI-unsplash.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-}
 img {
   height: 36px;
   width: 36px;
   display: inline;
 }
 span {
-  padding-left: 5px;
+  padding-left: 0.587rem;
 }
 </style>

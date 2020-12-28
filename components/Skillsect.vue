@@ -9,7 +9,7 @@
        About Me
       </p>
       <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-        I am a Front-End developer, writer and YouTuber based in Kenya, right in the heart of Africa. I can do remote work for any place in the world.
+        I am a Front-End developer, writer and YouTuber based in Kenya, right in the heart of Africa.
       </p>
     </div>
 
@@ -29,7 +29,7 @@
               Front End development
             </dt>
             <dd class="mt-2 text-base text-gray-500">
-              For frontend work, I am personally a huge fan of Vue.js and it's ecosystem (e.g. Nuxt.js).
+            I am personally a huge fan of Vue.js and my favourite framework (Nuxt.js).
             </dd>
           </div>
         </div>
@@ -48,7 +48,7 @@
               Work
             </dt>
             <dd class="mt-2 text-base text-gray-500">
-              If you have any web development needs, I am happy to look at your project.
+              Iam currently open for any role or project
             </dd>
           </div>
         </div>

@@ -42,14 +42,15 @@ export default {
 </script>
 <style scoped>
 .footer {
-  font-size: 1.1rem;
-  padding-top: 1rem;
+  height: 5rem;
+  font-size: 1.1458rem;
+  padding-top: 1.5rem;
   box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.1);
 }
 svg {
   display: inline;
   height: inherit;
-  width: 10px;
+  width: 9px;
 }
 .svg-inline--fa,
 svg:not(:root).svg-inline--fa {

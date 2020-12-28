@@ -30,9 +30,6 @@ export default {
       works: projects.works,
     };
   },
-  created() {
-    console.log(this.works);
-  },
 };
 </script>
 
