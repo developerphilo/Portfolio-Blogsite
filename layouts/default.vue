@@ -31,6 +31,8 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   scroll-behavior: smooth;
+  /* background-color: #0b0c0d;
+  color: #f5f7fa; */
 }
 
 *,
