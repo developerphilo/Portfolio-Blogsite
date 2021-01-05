@@ -10,7 +10,7 @@
             Lets talk
           </h2>
           <div class="text-gray-700 mt-8">
-            Hate forms? Send me an
+            Got a question or proposal, or just want to say hello? Go ahead.
             <span class="underline"
               ><a href="mailto:developerphilo@gmail.com">email</a></span
             >
