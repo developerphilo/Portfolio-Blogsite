@@ -43,8 +43,9 @@ export default {
 <style scoped>
 .footer {
   height: 5rem;
-  font-size: 1.1458rem;
+  font-size: 1rem;
   padding-top: 1.5rem;
+  padding-bottom: 0;
   box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.1);
 }
 svg {

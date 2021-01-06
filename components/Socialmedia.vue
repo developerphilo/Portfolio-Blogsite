@@ -86,8 +86,8 @@
   align-content: center;
   align-items: center;
   margin-bottom: 0;
-  padding-top: 1rem;
-  padding-bottom: 0;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   margin-bottom: 0;
   border-bottom: 0;
 }
@@ -100,7 +100,7 @@ ul li a {
   overflow-y: visible;
 }
 ul li a svg {
-  width: 2.5rem;
+  width: 2rem;
 }
 ul li a svg:hover {
   fill: rgb(23, 150, 23);
