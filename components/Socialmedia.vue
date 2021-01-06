@@ -102,6 +102,12 @@ ul li a {
 ul li a svg {
   width: 2rem;
 }
+.svg-inline--fa {
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  vertical-align: -0.125em;
+}
 ul li a svg:hover {
   fill: rgb(23, 150, 23);
   transform: translateY(-0.25em);
