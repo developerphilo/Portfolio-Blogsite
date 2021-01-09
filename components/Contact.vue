@@ -135,7 +135,7 @@
                 xlink:href="#eb6c86d6-45fa-49e0-9a60-1b0612516196"
               />
             </defs>
-            <title>contact us</title>
+            <title>contact me</title>
             <g opacity="0.1">
               <ellipse
                 cx="479.42"
@@ -1003,17 +1003,15 @@
       </div>
       <div class="">
         <div>
-          <span class="uppercase text-sm text-gray-600 font-bold"
-            >Full Name</span
-          >
+          <span class="text-sm text-gray-600 font-bold">Name/Alias</span>
           <input
             class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
             type="text"
-            placeholder="Enter Full Name"
+            placeholder="Enter name or alias"
           />
         </div>
         <div class="mt-8">
-          <span class="uppercase text-sm text-gray-600 font-bold">Email</span>
+          <span class="text-sm text-gray-600 font-bold">E-mail</span>
           <input
             class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
             type="text"
@@ -1021,7 +1019,7 @@
           />
         </div>
         <div class="mt-8">
-          <span class="uppercase text-sm text-gray-600 font-bold">Message</span>
+          <span class="text-sm text-gray-600 font-bold">Message</span>
           <textarea
             class="w-full h-32 bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
             placeholder="Enter message here ... "

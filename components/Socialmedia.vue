@@ -1,20 +1,6 @@
 <template>
   <div class="social-icons">
     <ul>
-      <li>
-        <a
-          href="https://www.facebook.com/profile.php?id=100059350125541"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="facebook"
-          title="Facebook"
-          ><svg viewBox="0 0 512 512">
-            <path
-              d="M211.9 197.4h-36.7v59.9h36.7V433.1h70.5V256.5h49.2l5.2-59.1h-54.4c0 0 0-22.1 0-33.7 0-13.9 2.8-19.5 16.3-19.5 10.9 0 38.2 0 38.2 0V82.9c0 0-40.2 0-48.8 0 -52.5 0-76.1 23.1-76.1 67.3C211.9 188.8 211.9 197.4 211.9 197.4z"
-            /></svg
-          ><!--[if lt IE 9]><em>Facebook</em><![endif]--></a
-        >
-      </li>
       <!-- github social media svg -->
       <li>
         <a
@@ -75,46 +61,54 @@
           ><!--[if lt IE 9]><em>YouTube</em><![endif]--></a
         >
       </li>
+      <!-- facebook media tag svg -->
+      <li>
+        <a
+          href="https://www.facebook.com/profile.php?id=100059350125541"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="facebook"
+          title="Facebook"
+          ><svg viewBox="0 0 512 512">
+            <path
+              d="M211.9 197.4h-36.7v59.9h36.7V433.1h70.5V256.5h49.2l5.2-59.1h-54.4c0 0 0-22.1 0-33.7 0-13.9 2.8-19.5 16.3-19.5 10.9 0 38.2 0 38.2 0V82.9c0 0-40.2 0-48.8 0 -52.5 0-76.1 23.1-76.1 67.3C211.9 188.8 211.9 197.4 211.9 197.4z"
+            /></svg
+          ><!--[if lt IE 9]><em>Facebook</em><![endif]--></a
+        >
+      </li>
     </ul>
   </div>
 </template>
 <style scoped>
 .social-icons {
-  overflow: hidden;
   display: flex;
   justify-content: center;
   align-content: center;
   align-items: center;
-  margin-bottom: 0;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  margin-bottom: 0;
-  border-bottom: 0;
 }
 ul {
   display: flex;
+  height: 50px;
 }
+ul li {
+  width: 35px;
+  margin: 0;
+  padding: 0;
+}
+
 ul li a {
-  overflow: visible;
-  overflow-x: visible;
-  overflow-y: visible;
-}
-ul li a svg {
-  width: 2rem;
-}
-.svg-inline--fa {
   display: inline-block;
-  font-size: inherit;
-  height: 1em;
-  vertical-align: -0.125em;
+  width: 50px;
+  margin: 0;
+  padding: 0;
+
+  transform: scale(0.6);
+  transition: 0.5s;
 }
-ul li a svg:hover {
+ul li a:hover {
   fill: rgb(23, 150, 23);
-  transform: translateY(-0.25em);
-  transition: all 0.3s ease-in-out;
-  transition-property: all;
-  transition-duration: 0.3s;
-  transition-timing-function: ease-in-out;
-  transition-delay: 0s;
+  transform: scale(0.65) translateY(-15px);
 }
 </style>

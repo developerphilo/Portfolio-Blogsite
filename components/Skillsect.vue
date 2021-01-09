@@ -29,7 +29,7 @@
               Front End development
             </dt>
             <dd class="mt-2 text-base text-gray-500">
-            I am personally a huge fan of Vue.js and my favourite framework (Nuxt.js).
+            I am personally a huge fan of Vue.js and its ecosystem (Nuxt.js)
             </dd>
           </div>
         </div>

@@ -32,7 +32,9 @@ export default {
   margin-bottom: 50px;
   width: 432px;
   height: 374.14px;
-  box-shadow: 0px 8px 6px -6px rgba(235, 234, 242, 0.58);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  border-radius: 5px;
 }
 .pwrap {
   width: 432px;
