@@ -7,7 +7,6 @@
           href="https://github.com/developerphilo"
           target="_blank"
           rel="noopener noreferrer"
-          class="github"
           title="GitHub"
           ><svg viewBox="0 0 512 512">
             <path
@@ -22,7 +21,6 @@
           href="https://twitter.com/amjohnphilip"
           target="_blank"
           rel="noopener noreferrer"
-          class="twitter"
           title="Twitter"
           ><svg viewBox="0 0 512 512">
             <path
@@ -37,7 +35,6 @@
           href="https://www.linkedin.com/in/amjohnphilip/"
           target="_blank"
           rel="noopener noreferrer"
-          class="linkedin"
           title="LinkedIn"
           ><svg viewBox="0 0 512 512">
             <path
@@ -52,7 +49,6 @@
           href="https://www.youtube.com/channel/UCNCzNrpq0fHxFqQYCmbwAcA"
           target="_blank"
           rel="noopener noreferrer"
-          class="youtube"
           title="YouTube"
           ><svg viewBox="0 0 512 512">
             <path
@@ -67,7 +63,6 @@
           href="https://www.facebook.com/profile.php?id=100059350125541"
           target="_blank"
           rel="noopener noreferrer"
-          class="facebook"
           title="Facebook"
           ><svg viewBox="0 0 512 512">
             <path
@@ -103,12 +98,11 @@ ul li a {
   width: 50px;
   margin: 0;
   padding: 0;
-
-  transform: scale(0.6);
+  transform: scale(0.7);
   transition: 0.5s;
 }
 ul li a:hover {
   fill: rgb(23, 150, 23);
-  transform: scale(0.65) translateY(-15px);
+  transform: scale(0.7) translateY(-15px);
 }
 </style>

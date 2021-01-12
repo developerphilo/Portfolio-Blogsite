@@ -77,7 +77,6 @@ svg:not(:root).svg-inline--fa {
 }
 .text-red-300 {
   opacity: 1;
-  color: #feb2b2;
   color: rgba(254, 178, 178, 1);
 }
 .svg-inline--fa {
