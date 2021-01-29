@@ -2,8 +2,8 @@ module.exports = {
     works: [
         {
             id: 0,
-            title: "Myrandom thoughts",
-            link: 'https://myrandomthoughts.co.ke/',
+            title: "Weekly Vue ",
+            link: 'http://weeklyvue.netlify.app',
             img: "iphone-mini.jpg",
 
         }, {
@@ -15,30 +15,23 @@ module.exports = {
         },
         {
             id: 2,
-            title: "Moviery",
-            link: 'https://myrandomthoughts.co.ke/',
+            title: "Portfolio Website ",
+            link: 'http://portfolio-blogsite.netlify.app ',
             img: "clock-saver.jpg",
 
         },
         {
             id: 3,
-            title: "Personal Website",
-            link: 'http://portfolio-blogsite.netlify.app',
+            title: "Unplugged",
+            link: 'http://unplugged.netlify.app ',
             img: "imac-screen.jpg",
 
         },
         {
             id: 4,
-            title: "Unplugged",
-            link: 'http://unplugged.netlify.app',
+            title: "Myrandom thoughts ",
+            link: 'https://myrandomthoughts.co.ke/',
             img: "iphone-black.jpg",
-
-        },
-        {
-            id: 5,
-            title: "Unplugged",
-            link: 'http://unplugged.netlify.app',
-            img: "movies-ui.jpg",
 
         }
 

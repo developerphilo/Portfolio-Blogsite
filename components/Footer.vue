@@ -44,6 +44,8 @@ export default {
 .footer {
   height: 5rem;
   font-size: 1rem;
+  letter-spacing: 1px;
+  font-weight: 600;
   padding-top: 1.5rem;
   padding-bottom: 0;
   box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.1);

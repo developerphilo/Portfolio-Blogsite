@@ -20,19 +20,21 @@ export default {
 
 <style>
 html {
-  font-family: Zilla Slab, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  line-height: 1.5;
-  font-size: 16px;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  font-size: calc(10px + 0.33vw);
   scroll-behavior: smooth;
+  color: #121314;
   /* background-color: #0b0c0d;
   color: #f5f7fa; */
+}
+html:focus-within {
+  scroll-behavior: smooth;
 }
 
 *,
