@@ -1,23 +1,23 @@
 <template>
   <!-- component -->
-  <div class="h-9">
+  <div class="h-9 font-serif">
     <!-- Text shadow utilities will be cool -->
-    <nav class="flex justify-between p-2 items-center mb-2 font-bold">
+    <nav class="flex justify-around pt-10 items-center mb-2 font-bold">
       <div>
-        <a href="/" class="text-black text-normal pl-10">
+        <a href="/" class="flex text-black text-normal pl-10">
           <img
             :src="require(`~/assets/john-philip.webp`)"
-            class="img-rounded"
-            width="36"
-            height="36"
+            class="img-rounded h-10 w-10"
+            width="10"
+            height="10"
             alt="picture of john philip"
             srcset=""
           />
-          <span>John Philip</span>
+          <span class="text-2xl pl-3">John Philip</span>
         </a>
       </div>
 
-      <ul class="list-reset flex">
+      <ul class="list-reset flex text-1xl">
         <li>
           <nuxt-link to="/" class="text-black p-2 md:p-4">Home</nuxt-link>
         </li>
@@ -42,12 +42,4 @@ export default {
 };
 </script>
  <style scoped>
-img {
-  height: 36px;
-  width: 36px;
-  display: inline;
-}
-span {
-  padding-left: 0.587rem;
-}
 </style>

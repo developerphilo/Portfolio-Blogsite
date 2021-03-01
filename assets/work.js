@@ -10,7 +10,7 @@ module.exports = {
             id: 1,
             title: "Pexelry",
             link: 'https://pexelry.netlify.app/',
-            img: "digi-black.jpg",
+            img: "pexelry.jpg",
 
         },
         {

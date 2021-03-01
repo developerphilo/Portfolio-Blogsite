@@ -1,5 +1,5 @@
 <template>
-  <div class="footer text-center mt-8 mb-4">
+  <div class="footer text-center mt-8 mb-4 ">
       <div> </> with
       <span><span class="sr-only">love</span> 
       <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="heart" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="animate-ping heart-background text-red-300 z-10 svg-inline--fa fa-heart fa-w-16">

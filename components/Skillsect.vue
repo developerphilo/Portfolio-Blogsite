@@ -25,8 +25,8 @@
             </div>
           </div>
           <div class="ml-4">
-            <dt class="text-lg leading-6 font-medium text-gray-900">
-              Front End development
+            <dt class="text-2xl leading-6 font-medium text-gray-900">
+              Front-End development
             </dt>
             <dd class="mt-2 text-base text-gray-500">
             I am personally a huge fan of Vue.js and its ecosystem (Nuxt.js)
@@ -44,7 +44,7 @@
             </div>
           </div>
           <div class="ml-4">
-            <dt class="text-lg leading-6 font-medium text-gray-900">
+            <dt class="text-2xl leading-6 font-medium text-gray-900">
               Work
             </dt>
             <dd class="mt-2 text-base text-gray-500">
@@ -63,7 +63,7 @@
             </div>
           </div>
           <div class="ml-4">
-            <dt class="text-lg leading-6 font-medium text-gray-900">
+            <dt class="text-2xl leading-6 font-medium text-gray-900">
               Learning
             </dt>
             <dd class="mt-2 text-base text-gray-500">
@@ -82,7 +82,7 @@
             </div>
           </div>
           <div class="ml-4">
-            <dt class="text-lg leading-6 font-medium text-gray-900">
+            <dt class="text-2xl leading-6 font-medium text-gray-900">
               Wordpress
             </dt>
             <dd class="mt-2 text-base text-gray-500">

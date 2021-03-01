@@ -1,7 +1,7 @@
 <template>
   <div>
     <vue-scroll-indicator
-      height="3.5px"
+      height="3px"
       color="rgb(36, 160, 57)"
       background="none"
     >

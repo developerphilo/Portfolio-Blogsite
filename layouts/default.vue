@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="font-serif">
     <Header />
     <Nuxt />
     <Footer />
@@ -27,7 +27,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   letter-spacing: 1px;
   line-height: 1.5;
-  font-size: calc(10px + 0.33vw);
+  font-size: calc(10px + 0.35vw);
   scroll-behavior: smooth;
   color: #121314;
   /* background-color: #0b0c0d;
