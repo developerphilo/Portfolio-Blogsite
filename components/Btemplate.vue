@@ -13,7 +13,7 @@ export default {
 <style scoped>
 .w-full {
   height: 350px;
-  background-image: url("../assets/james-harrison-vpOeXr5wmR4-unsplash.jpg");
-  background: linear-gradient();
+  background-image: linear-gradient(rgba(0, 0, 0, 0.533), rgba(0, 0, 0, 0.533)),
+    url("../assets/james-harrison-vpOeXr5wmR4-unsplash.jpg");
 }
 </style>
