@@ -1,7 +1,7 @@
 <<template>
   <!-- component -->
   <div>
-    <div class="w-full headerr">
+    <div class="w-full headerr bg-no-repeat bg-center">
     <div class="bg-cover bg-bottom h-1/4">
       <div class="text-center pt-40">
         <h1 class="font-medium text-5xl ">Front-End Developer</h1>
@@ -25,8 +25,6 @@ export default {
  .headerr{
     height:600px;
     background-image: url('../assets/background-image-undrew.svg');
-    background-repeat: no-repeat;
-    background-position: center;
   
  }
 
