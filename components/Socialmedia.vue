@@ -1,5 +1,5 @@
 <template>
-  <div class="social-icons">
+  <div class="flex justify-center content-center items-center py-3">
     <ul>
       <!-- github social media svg -->
       <li>
@@ -75,14 +75,6 @@
   </div>
 </template>
 <style scoped>
-.social-icons {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
 ul {
   display: flex;
   height: 50px;

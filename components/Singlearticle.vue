@@ -1,6 +1,6 @@
 <template>
   <article class="pt-8 mx-auto pb-2">
-    <div class="wrapper antialiased text-gray-900 ml-4 grow">
+    <div class="flex items-center antialiased text-gray-900 ml-4 grow">
       <div>
         <img
           :src="require(`~/assets/${img}`)"
@@ -46,10 +46,6 @@ export default {
 };
 </script>
 <style scoped>
-.wrapper {
-  display: flex;
-  place-items: center;
-}
 img {
   width: 400px;
   height: 300px;

@@ -1,5 +1,5 @@
 <template>
-  <div class="project-wrapper">
+  <div class="project-wrapper mb-10 rounded-sm">
     <div class="pwrap">
       <img
         :src="require(`~/assets/${img}`)"
@@ -29,12 +29,10 @@ export default {
 
 <style scoped>
 .project-wrapper {
-  margin-bottom: 50px;
   width: 432px;
   height: 374.14px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-  border-radius: 5px;
 }
 .pwrap {
   width: 432px;
