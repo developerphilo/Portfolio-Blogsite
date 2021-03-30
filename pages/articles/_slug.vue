@@ -85,15 +85,19 @@ img {
 }
 h5 {
   font-size: 1.4rem;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
 }
 strong {
   font-size: 26px;
+  align-items: center;
 }
 .nuxt-content ul li {
   list-style-type: disc;
   padding: 8px 0;
   font-weight: 500;
   margin-left: 30px;
+  font-size: 19px;
 }
 .filename {
   font-weight: bold;
