@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center content-center items-center py-3">
+  <div class="flex justify-center content-center items-center pb-1">
     <ul>
       <!-- github social media svg -->
       <li>
