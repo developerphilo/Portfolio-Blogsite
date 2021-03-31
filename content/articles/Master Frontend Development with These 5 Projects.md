@@ -1,5 +1,5 @@
 ---
-title: Master Frontend Development with These 5 Projects
+title: Master Frontend Development
 
 description: Improve your frontend development by building these 5 projects
 
