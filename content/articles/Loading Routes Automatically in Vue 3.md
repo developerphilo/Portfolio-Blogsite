@@ -1,11 +1,11 @@
 ---
-title: Loading Routes Automatically in Vue 3
+title: Loading Routes Automatically
 
-description: Loading Routes Automatically in Vue 3
+description: Loading Routes Automatically
 
-alt: Loading Routes Automatically in Vue 3
+alt: Loading Routes Automatically
 
-excerpt: Loading Routes Automatically in Vue 3
+excerpt: Loading Routes Automatically
 
 img: pexels-ready-made-3850924.jpg
 
