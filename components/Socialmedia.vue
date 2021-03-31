@@ -95,6 +95,6 @@ ul li a {
 }
 ul li a:hover {
   fill: rgb(23, 150, 23);
-  transform: scale(0.7) translateY(-15px);
+  transform: scale(0.7) translateY(-10px);
 }
 </style>
