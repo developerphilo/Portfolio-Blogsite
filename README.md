@@ -9,17 +9,15 @@ This is my portfolio and blog website
 
 #### Built with
 
-    - NuxtJs
-
-    - Nuxt content
-
-    - Markdown
+    - NuxtJs (Nuxt-content)
 
     - Tailwind CSS
 
     - Prism Themes
 
     - Vue Scroll Indicator
+
+    - Markdown
 
 #### Image Resources
 
