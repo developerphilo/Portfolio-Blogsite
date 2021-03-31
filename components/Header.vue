@@ -1,6 +1,6 @@
 <template>
   <!-- component -->
-  <div class="h-9 font-serif">
+  <div class="h-9 font-serif pb-3">
     <!-- Text shadow utilities will be cool -->
     <nav class="flex justify-around pt-10 items-center mb-2 font-bold">
       <div>
