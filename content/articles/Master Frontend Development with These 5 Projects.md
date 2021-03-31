@@ -7,7 +7,7 @@ alt:  Master Frontend Development
 
 excerpt:  Master Frontend Development
 
-img: pexels-ready-made-3850924.jpg
+img: iphone-held-900x600.jpg
 
 tag: TIPS
 
