@@ -1,7 +1,7 @@
 <<template>
   <!-- component -->
-  <div class="w-full bg-cover bg-center bg-no-repeat object-cover text-center bg-cover" style="" >
-      <h1 class="text-gray-300 font-medium text-5xl pt-32">/ Blogs</h1>
+  <div class="w-full bg-cover  bg-center bg-no-repeat lg:h-64 sm:h-32 object-cover text-center bg-cover">
+      <h1 class="text-gray-300 justify-center content-center items-center font-medium text-5xl">/ Blogs</h1>
 
   </div>
 </template>
@@ -12,8 +12,10 @@ export default {
 </script>
 <style scoped>
 .w-full {
-  height: 450px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.533), rgba(0, 0, 0, 0.533)),
     url("../assets/james-harrison-vpOeXr5wmR4-unsplash.jpg");
+}
+.w-full h1 {
+  padding: 5%;
 }
 </style>
