@@ -2,7 +2,7 @@
   <div>
     <div class="work-head">
       <h1><span>/</span>work <span>.</span></h1>
-      <p>Selected projects I've worked on in the past</p>
+      <p>Selected projects I've worked on</p>
     </div>
     <div class="works-wrapper">
       <Work
