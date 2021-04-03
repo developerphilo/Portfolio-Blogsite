@@ -13,7 +13,7 @@
             alt="picture of john philip"
             srcset=""
           />
-          <span class="text-2xl pl-3">John Philip</span>
+          <span class="text-2xl pl-3">John</span>
         </a>
       </div>
 
