@@ -12,14 +12,24 @@
   "dependencies": {
     "@nuxt/content": "^1.10.0",
     "@nuxtjs/tailwindcss": "^3.3.1",
+<<<<<<< HEAD
     "autoprefixer": "^9.8.6",
+=======
+    "autoprefixer": "^10.2.5",
+>>>>>>> c643942e2c8ee7dbdbc105244f394d886340168d
     "axios": "^0.21.1",
     "core-js": "^3.6.5",
     "nuxt": "^2.14.6",
     "nuxt-fontawesome": "^0.4.0",
+<<<<<<< HEAD
     "postcss": "^7.0.35",
     "prism-themes": "^1.5.0",
     "tailwindcss": "^1.9.6"
+=======
+    "postcss": "^8.2.9",
+    "prism-themes": "^1.5.0",
+    "tailwindcss": "^2.0.4"
+>>>>>>> c643942e2c8ee7dbdbc105244f394d886340168d
   },
   "devDependencies": {
     "@vue/test-utils": "^1.1.0",
